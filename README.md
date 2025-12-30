@@ -1,6 +1,6 @@
 # Network File Server
 
-*Disclaimer*: This is for documentation purposes ONLY! Implementation details are hidden (nice try, EECS 482 students reading this) and public server application's output is **muted**. The password-protected .zip contains my implementation of this thread library; if you need access, feel free to email me (alvinhat@umich.edu)!
+*Disclaimer*: This is for documentation purposes ONLY! Implementation details are hidden (nice try, 482 students reading this) and public server application's output is **muted**. The password-protected .zip contains my implementation of this thread library; if you need access, feel free to email me (alvinhat@umich.edu)!
 
 This repo contains the interface for the client (`fs_client.h`). It also has the interface for the server, which runs on my implementation of a multi-threaded network file server in C++20. Disk abstraction is provided by the course infrastructure, although the disk objects themselves can be accessed with `showfs`. Peek at `testsample.cpp` for a demonostration of the basic features.
 

@@ -18,6 +18,7 @@ Red Hat Enterprise Linux (RHEL 9) with GCC 12+, Boost 1.89+
 
 ## Example Usage
 Create a fresh file system.
+
 `./tools/create_fs` (Linux) `./tools/createfs_macos` (macOS)
 
 Run file server on port 67 on localhost.
